@@ -131,6 +131,7 @@ STACK_OFFICIAL_HOSTS = {
     "javafx": {"openjfx.io", "mkpaz.github.io", "www.w3.org"},
     "threejs": {"threejs.org", "github.com", "www.npmjs.com", "www.w3.org"},
     "laravel": {"laravel.com"},
+    "qt5-qml": {"doc.qt.io"},
 }
 REQUIRED_UX_GUIDANCE = {
     "Focus Not Obscured (Minimum)": "Web",

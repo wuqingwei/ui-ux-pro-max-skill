@@ -109,6 +109,7 @@ STACK_CONFIG = {
     "avalonia":         {"file": "stacks/avalonia.csv"},
     "uno":              {"file": "stacks/uno.csv"},
     "uwp":              {"file": "stacks/uwp.csv"},
+    "qt5-qml":          {"file": "stacks/qt5-qml.csv"},
 }
 
 # Common columns for all stacks
@@ -144,6 +145,7 @@ STACK_CURRENT_VERSIONS = {
     "javafx": (26,),
     "threejs": (0, 185),
     "laravel": (13,),
+    "qt5-qml": (5, 15),
 }
 LEGACY_ONLY_STACKS = frozenset({"uwp"})
 STACK_CURRENT_APPLICABILITY = {
@@ -169,6 +171,7 @@ STACK_CURRENT_APPLICABILITY = {
     "javafx": "javafx 26",
     "threejs": "threejs 0.185.1",
     "laravel": "laravel 13.x",
+    "qt5-qml": "qt5-qml 5.15.x",
 }
 
 _STACK_QUERY_NAMES = {
@@ -190,6 +193,7 @@ _STACK_QUERY_NAMES = {
     "javafx": r"javafx",
     "threejs": r"three(?:\.js|js)?",
     "laravel": r"laravel",
+    "qt5-qml": r"qt5-qml",
 }
 
 AVAILABLE_STACKS = list(STACK_CONFIG.keys())
